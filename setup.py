@@ -6,11 +6,11 @@ import os
 import subprocess
 import time
 
-version_file = 'Pixelpulse/version.py'
+version_file = 'realesrgan/version.py'
 
 
 def readme():
-    with open('/content/Pixelpulse/README.md', encoding='utf-8') as f:
+    with open('README.md', encoding='utf-8') as f:
         content = f.read()
     return content
 
@@ -57,7 +57,7 @@ __gitsha__ = '{}'
 version_info = ({})
 """
     sha = get_hash()
-    with open('/content/Pixelpulse/VERSION', 'r') as f:
+    with open('VERSION', 'r') as f:
         SHORT_VERSION = f.read().strip()
     VERSION_INFO = ', '.join([x if x.isdigit() else f'"{x}"' for x in SHORT_VERSION.split('.')])
 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
         author='Xintao Wang',
         author_email='xintao.wang@outlook.com',
         keywords='computer vision, pytorch, image restoration, super-resolution, esrgan, real-esrgan',
-        url='https://github.com/nick-arch/Pixelpulse.git',
+        url='https://github.com/xinntao/Real-ESRGAN',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         classifiers=[
