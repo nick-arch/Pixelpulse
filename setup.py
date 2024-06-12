@@ -90,7 +90,7 @@ if __name__ == '__main__':
         author='Xintao Wang',
         author_email='xintao.wang@outlook.com',
         keywords='computer vision, pytorch, image restoration, super-resolution, esrgan, real-esrgan',
-        url='https://github.com/xinntao/Real-ESRGAN',
+        url='https://github.com/nick-arch/Pixelpulse.git',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         classifiers=[
