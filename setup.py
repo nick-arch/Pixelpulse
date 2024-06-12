@@ -10,7 +10,7 @@ version_file = 'Pixelpulse/version.py'
 
 
 def readme():
-    with open('README.md', encoding='utf-8') as f:
+    with open('/content/Pixelpulse/README.md', encoding='utf-8') as f:
         content = f.read()
     return content
 
